@@ -1,0 +1,301 @@
+html {
+  background-color: rgba(77, 77, 181, 0.5);
+}
+.tblue {
+  color: #3e4df3;
+}
+.tbg {
+  background-color: rgba(77, 77, 181, 0.5);
+  border-radius: 15px;
+  padding: 8px;
+}
+
+.p-text {
+  color: rgb(128, 128, 128);
+}
+.p-text3 {
+  color: rgb(230, 230, 230);
+}
+.p-text2,
+.up {
+  color: rgb(186, 186, 186);
+}
+
+.tbg2 {
+  background-color: rgb(250, 250, 250);
+}
+.tbg3 {
+  background-color: rgba(77, 77, 181, 0.041);
+  border-radius: 15px;
+  padding: 8px;
+}
+.blur-background {
+  backdrop-filter: blur(5px);
+}
+.paddings {
+  padding-top: 55px;
+  padding-bottom: 20px;
+}
+.padding {
+  padding: 100px;
+}
+
+main {
+  background-image: url("../../img/bg\ 1.png");
+  background-position: center;
+  background-size: cover;
+  height: 95vh;
+}
+#projects {
+  background-image: url("../../img/Untitled\ design\ \(1\).png");
+  background-position: center;
+  background-size: cover;
+}
+#contacts {
+  background-image: url("../../img/Untitled\ design\ \(1\).png");
+  background-position: center;
+  background-size: cover;
+}
+#profile,
+#footer {
+  background-image: url("../../img/dark.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.imgs {
+  animation: float 3s ease-in-out infinite;
+  position: relative;
+  top: -70px;
+  border: 3px solid #3e4df3;
+  max-width: 50%;
+  max-height: 65vh;
+  padding: 10px;
+  padding-bottom: 0px;
+  border-radius: 250px;
+  box-shadow: 0 4px 15px rgba(0, 0, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5);
+}
+.hovers:hover {
+  color: #333;
+  transform: scale(1.05);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.bgimg {
+  background-image: url(/img/bg3.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.logos {
+  animation: float 3s ease-in-out infinite;
+  width: 80px;
+  height: 72px;
+}
+
+.logos2 {
+  animation: float 3s ease-in-out infinite;
+  width: 80px;
+  height: 72px;
+}
+.max {
+  max-width: 150px;
+}
+.fonts {
+  font-size: 70px;
+}
+.fonts2 {
+  font-size: 90px;
+}
+.text-with-border {
+  color: transparent;
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.14);
+}
+.style {
+  font-weight: bolder;
+}
+.iswag {
+  position: relative;
+  top: -100px;
+  left: 50px;
+}
+.menu {
+  position: fixed;
+  z-index: 3;
+  bottom: 0;
+  background-color: rgba(77, 77, 181, 0.226);
+  border-radius: 15px;
+  padding: 8px;
+  text-align: center;
+}
+
+.widths {
+  width: 75%;
+}
+
+.owner2 {
+  min-width: 300px;
+  max-height: 95vh;
+}
+.second-header {
+  background-color: #11171f;
+  font-size: 100px;
+}
+
+.third-header {
+  background-color: #11171f;
+}
+.underline {
+  text-decoration: underline;
+  color: wheat;
+}
+.underline2 {
+  text-decoration: underline;
+  color: rgb(247, 216, 160);
+}
+.underline3 {
+  text-decoration: underline;
+  color: wheat;
+  background-color: #333;
+}
+.noderline {
+  color: wheat;
+}
+
+.up {
+  position: relative;
+  top: -100px;
+}
+
+.down {
+  margin-top: 100px;
+}
+.tail {
+  animation: float 3s ease-in-out infinite;
+  height: 50px;
+}
+
+.tail2 {
+  animation: float 3s ease-in-out infinite;
+  position: relative;
+  top: -10px;
+  height: 20px;
+
+  width: 50px;
+}
+.tail2 {
+  height: 60px;
+  margin-top: 0px;
+}
+.tail3 {
+  animation: float 3s ease-in-out infinite;
+  height: 50px;
+}
+.tail4 {
+  height: 50px;
+}
+.mt {
+  margin-top: 30px;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/*transitions*/
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+/*transitions*/
+/*fonts*/
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.ultra-regular {
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.ultra-regular2 {
+  font-family: "Ultra", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.suse {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+.ysabeau {
+  font-family: "Ysabeau", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-style: normal;
+}
+.ubos {
+  padding-bottom: 60px;
+}
+
+/*fonts*/
+@media (max-width: 1024px) and (min-width: 768px) {
+  .fonts {
+    font-size: 45px;
+  }
+}
+@media (max-width: 767.98px) {
+  .logos2 {
+    width: 60px;
+    height: 52px;
+  }
+  .tail3 {
+    animation: float 3s ease-in-out infinite;
+    height: 30px;
+  }
+  .fonts {
+    font-size: 30px;
+  }
+  .fonts2 {
+    margin-bottom: 40px;
+    font-size: 40px;
+  }
+  .tops {
+    position: relative;
+    top: -100px;
+  }
+  .imgs {
+    min-width: 180px;
+    top: 0px;
+  }
+  .iswag {
+    position: static;
+  }
+  .widths {
+    width: 100%;
+  }
+  .prjimg {
+    max-width: 100px;
+  }
+  .second-header {
+    font-size: 70px;
+  }
+  .owner2 {
+    width: 100%;
+    height: auto;
+  }
+}
