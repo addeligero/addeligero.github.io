@@ -48,6 +48,12 @@ function updateUnderline(activeElementId, allElementIds) {
   document.getElementById(activeElementId).classList.add("underline");
 }
 
+// Set default view
+document.addEventListener("DOMContentLoaded", () => {
+  toggleSections("skills_info", ["certs_info", "exp_info"]);
+  updateUnderline("skills", ["skills", "exp", "certs"]);
+});
+
 document.getElementById("certs").addEventListener("click", () => {
   toggleSections("certs_info", ["skills_info", "exp_info"]);
   updateUnderline("certs", ["skills", "exp", "certs"]);
