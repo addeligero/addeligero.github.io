@@ -251,7 +251,49 @@ main {
 .ubos {
   padding-bottom: 60px;
 }
-
+.loading-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    to right,
+    rgb(16, 16, 38),
+    rgb(47, 47, 113),
+    rgb(16, 16, 38)
+  );
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 999;
+}
+#svg {
+  height: 150px;
+  width: 150px;
+  stroke: black;
+  fill-opacity: 0;
+  stroke-width: 3px;
+  stroke-dasharray: 4500;
+  animation: draw 40s ease;
+}
+.name-container {
+  margin-top: 15px;
+}
+.logo-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 4500;
+  }
+  10% {
+    stroke-dashoffset: 0;
+  }
+}
 /*fonts*/
 @media (max-width: 1024px) and (min-width: 768px) {
   .fonts {
