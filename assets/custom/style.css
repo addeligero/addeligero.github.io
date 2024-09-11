@@ -286,6 +286,39 @@ main {
   font-weight: bold;
   color: black;
 }
+.container2 {
+  position: relative;
+  display: inline-block;
+}
+
+.text {
+  position: absolute;
+  color: black;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s;
+  text-align: center;
+  padding: 10px;
+  pointer-events: none;
+  background-color: rgba(91, 91, 154, 0.5);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container2:hover .text {
+  opacity: 1;
+}
+
+.hover-img {
+  display: block;
+}
 @keyframes draw {
   0% {
     stroke-dashoffset: 4500;
