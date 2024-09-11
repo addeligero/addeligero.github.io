@@ -295,7 +295,7 @@ main {
   }
 }
 /*fonts*/
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1200px) and (min-width: 768px) {
   .fonts {
     font-size: 45px;
   }
@@ -319,7 +319,7 @@ main {
   }
   .tops {
     position: relative;
-    top: -100px;
+    top: -50px;
   }
   .imgs {
     min-width: 180px;
