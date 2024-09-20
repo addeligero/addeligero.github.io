@@ -225,15 +225,23 @@ main {
   font-weight: 400;
   font-style: normal;
 }
-.ultra-regular {
+.ultra-regular,
+.ultra-regular2,
+.ultra-regular3 {
   font-family: "Ultra", serif;
-  font-weight: 400;
   font-style: normal;
 }
+
+.ultra-regular {
+  font-weight: 400;
+}
+
 .ultra-regular2 {
-  font-family: "Ultra", serif;
   font-weight: 200;
-  font-style: normal;
+}
+
+.ultra-regular3 {
+  font-weight: 50;
 }
 
 .suse {
